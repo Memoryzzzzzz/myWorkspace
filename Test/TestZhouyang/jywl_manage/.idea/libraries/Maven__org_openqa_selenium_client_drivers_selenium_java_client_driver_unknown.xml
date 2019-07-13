@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.openqa.selenium.client-drivers:selenium-java-client-driver:unknown">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/openqa/selenium/client-drivers/selenium-java-client-driver/unknown/selenium-java-client-driver-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/org/openqa/selenium/client-drivers/selenium-java-client-driver/unknown/selenium-java-client-driver-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/openqa/selenium/client-drivers/selenium-java-client-driver/unknown/selenium-java-client-driver-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
