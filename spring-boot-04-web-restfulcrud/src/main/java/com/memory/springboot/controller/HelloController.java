@@ -1,5 +1,6 @@
 package com.memory.springboot.controller;
 
+import java.util.Map;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -20,5 +21,13 @@ public class HelloController {
     @RequestMapping("/hello")
     public String hello(){
         return "Hello World";
+    }
+
+    // 页面展示查出一些数据
+    @RequestMapping("/success")
+    public String success(Map<String, Object> map){
+        // classpath:/templates/success.html
+        map.put("hello", "ha");
+        return "success";
     }
 }
