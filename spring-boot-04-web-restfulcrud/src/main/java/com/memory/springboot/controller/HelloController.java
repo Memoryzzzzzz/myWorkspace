@@ -1,5 +1,6 @@
 package com.memory.springboot.controller;
 
+import java.util.Arrays;
 import java.util.Map;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,7 +28,8 @@ public class HelloController {
     @RequestMapping("/success")
     public String success(Map<String, Object> map){
         // classpath:/templates/success.html
-        map.put("hello", "ha");
+        map.put("hello", "<h1>Hi</h1>");
+        map.put("users", Arrays.asList("zhangsan", "lisi"));
         return "success";
     }
 }
